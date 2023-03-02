@@ -58,9 +58,9 @@ const ShowTime = () => {
     return(
         <div className={styles.main}>
             <h1 className={styles.text}>{hour} : {min} : {second} : {mlSecond}</h1>
-            <button className={styles.start} onClick={onStart}>Start</button>
-            <button className={styles.stop} onClick={onStop}>Stop</button>
-            <button className={styles.rest} onClick={onRest}>Rest</button>
+            <button className={styles.button} onClick={onStart}>Start</button>
+            <button className={styles.button} onClick={onStop}>Stop</button>
+            <button className={styles.button} onClick={onRest}>Rest</button>
         </div>
     )
 }

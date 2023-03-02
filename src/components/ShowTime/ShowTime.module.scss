@@ -1,36 +1,25 @@
 
 .main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .text{
     color: rgb(244, 244, 244);
-    font-size: 25px;
+    font-size: 100px;
 }
 
-.start {
-    width: 100px;
+.button {
+    width: 60px;
+    height: 60px;
     margin: 10px;
     background-color: coral;
     color: aliceblue;
     border-radius: 10px;
-}
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
 
-
-.stop{
-    width: 100px;
-    margin: 10px;
-    background-color: rgb(243, 255, 80);
-    color: rgb(0, 0, 0);
-    border-radius: 10px;
-}
-.rest{
-    width: 100px;
-    margin: 10px;
-    background-color: rgb(5, 255, 209);
-    color: rgb(0, 0, 0);
-    border-radius: 10px;
+    &:hover {
+        background: rgb(114, 58, 18)
+    }
 }
